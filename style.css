@@ -1,0 +1,512 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+
+body
+{
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+    color: #505962;
+
+}
+
+.offset:before
+{
+    display: block;
+    content: "";
+    height: 4rem;
+    margin-top: -4rem;
+}
+
+/*---Navigation ---*/
+.navbar
+{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+    background: rgba(0, 0, 0, 0.6)!important;
+}
+
+.navbar-brand img
+{
+    height: 3.5rem;
+
+}
+
+.navbar-nav li
+{
+    padding-right: .7rem;
+}
+
+.navbar-dark .navbar-nav .nav-link
+{
+    color: white;
+    padding-top: .8rem;
+
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover
+{
+    color: #e42922;
+}
+
+/*---Start Landing Page CSS ---*/
+
+.home-inner
+{
+    background-image: url(img/rotGelb.jpg);
+}
+
+.caption
+{
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 38%;
+    z-index: 1;
+    color: white;
+    text-transform: uppercase;
+}
+
+.caption h1
+{
+    font-size: 3.8rem;
+    font-weight: 700;
+    letter-spacing: .3rem;
+    text-shadow: .1rem .1rem .8rem black;
+    padding-bottom: .8rem;
+}
+
+.caption h3
+{
+    font-size: 2rem;
+    text-shadow: .1rem .1rem .5rem black;
+    padding-bottom: 1.6rem;
+
+}
+
+.btn-lg
+{
+    border-width: medium;
+    border-radius: 0;
+    padding: .6rem 1.3rem;
+    font-size: 2rem;
+}
+/*---End Landing Page CSS ---*/
+
+/*---Start Page2 CSS---*/
+
+.narrow
+{
+    width:75%;
+    margin: 1.5rem auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.narrow h1
+{
+    font-size: 2.4rem;
+}
+
+.btn-secondary
+{
+    border-width: medium;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    padding: .6rem 1.2rem;
+    margin: 1rem;
+    color: white;
+    background-color: #f30b17;
+    border-color: #f30b17;
+}
+
+.btn-secondary:hover
+{
+
+    background-color: #e42922;
+    border-color: #e42922;
+}
+
+/*---End Page2 CSS---*/
+
+/*---Start Page3 CSS---*/
+
+.jumbotron
+{
+    margin-bottom: 0;
+    padding: 2rem 0 3.5rem;
+    border-radius: 0;
+}
+
+h3.heading
+{
+    font-size: 1.9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.heading-underline
+{
+    width: 10rem;
+    height: .2rem;
+    background-color: #f30b17;
+    margin: 0 auto 2rem;
+}
+
+.feature svg.svg-inline--fa
+{
+    color: #f30b17;
+}
+
+.feature h3
+{
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    padding-bottom: .5rem;
+
+}
+
+.feature p
+{
+    font-size: 1.1rem;
+}
+
+.benefits
+{
+    margin-top: 4rem;
+}
+
+/*---End Page3 CSS---*/
+
+/*---Start Page4 CSS---*/
+
+.fixed
+{
+    background-color: #061106;
+    z-index: -1;
+}
+
+.dark
+{
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    padding: 7rem 2rem;
+}
+
+.fixed-background h3
+{
+    margin-bottom: 2rem;
+}
+
+.fixed-background p
+{
+    margin-top: 1.5rem;
+}
+
+/*---End Page4 CSS---*/
+
+/*---Start Page5 CSS---*/
+
+.pages5 img
+{
+    width: 70%;
+    border-radius: 2.5%;
+}
+
+.vita
+{
+    margin-top: 0.1rem;
+    margin-bottom: 0.1rem;
+    font-size: 1.5rem;
+}
+
+/*---End Page5 CSS---*/
+
+/*---Start Kontakt CSS---*/
+
+footer
+{
+    padding: 2rem 0 2rem;
+    margin-top: 1rem;
+}
+
+footer img 
+{
+    height: 10rem;
+    margin: 1.5rem 0;
+}
+
+hr.socket
+{
+    width: 100%;
+    border-top: .2rem solid #666b71;
+    margin-top: 3rem;
+}
+
+.impressum
+{
+    color: #000;
+}
+
+.impressum:hover
+{
+    color: #000;
+}
+
+.img-fluid
+{
+    width: auto;
+    height: auto;
+}
+
+
+/*---End Kontakt CSS---*/
+
+/*---Start Queries---*/
+
+@media (max-width: 767px)
+{
+
+
+    .caption h1
+    {
+        font-size: 2.3rem;
+        letter-spacing: .15rem;
+        padding-bottom: .5rem;
+    }
+
+    .caption h3
+    {
+        font-size: 1.2rem;
+        padding-bottom: 1.2rem;
+    }
+
+    .btn-lg
+    {
+        padding: .5rem 1rem;
+        font-size: 1rem;
+    }
+
+    .narrow h1
+    {
+        font-size: 1.5rem;
+    }
+
+    .pages5 img
+    {
+        max-width: 50%;
+        display: block;
+        margin: 0 auto;
+
+    }
+
+    .btn-secondary
+    {
+        max-width: 70%;
+        display: block;
+        margin: 0 auto;
+        font-size: 1rem;
+    }
+
+}
+@media (max-width: 575px)
+{
+
+    .impressums-text 
+    {
+        font-size: .8rem;
+    }
+
+    .impressums-text h1
+    {
+        font-size: 2rem;
+    }
+
+    .impressums-text h2
+    {
+        font-size: 1.5rem;
+    }
+
+    .impressums-text h3
+    {
+        font-size:  1.2rem;
+    }
+
+    .logoimg
+    {
+        max-width: 60%;
+        max-height: 30%;
+    }
+
+    .caption h1
+    {
+        font-size: 2.3rem;
+        letter-spacing: .15rem;
+        padding-bottom: .5rem;
+    }
+
+    .caption h3
+    {
+        font-size: 1.2rem;
+        padding-bottom: 1.2rem;
+    }
+
+    .btn-lg
+    {
+        padding: .5rem 1rem;
+        font-size: 1rem;
+    }
+
+    .narrow h1
+    {
+        font-size: 1.5rem;
+    }
+
+    .pages5 img
+    {
+        max-width: 50%;
+        display: block;
+        margin: 0 auto;
+
+    }
+
+    .btn-secondary
+    {
+        max-width: 70%;
+        display: block;
+        margin: 0 auto;
+        font-size: 1rem;
+
+    }
+}
+
+/*---End Queries---*/
+
+/*---Start Kontakt Formular CSS---*/
+
+.kontaktformular
+{
+    margin-top: 8rem;
+
+}
+
+.mail-versendung
+{
+    margin-top: 12rem;
+    margin-bottom: 6rem;
+}
+
+/*---End Kontakt Formular CSS---*/
+
+/*---Start Impressum CSS---*/
+
+.impressums-text
+{
+    margin-top: 8rem;
+}
+
+.impressums-text h1
+{
+    padding-bottom: 2rem;
+}
+
+/*---End Impressum CSS---*/
+
+/*---Start Carousel CSS---*/
+
+/* Carousel base class */
+.carousel 
+{
+   /* margin-bottom: 4rem;
+    margin-left: 4rem;
+    margin-right: 4rem;*/
+    margin-top: 5.1rem;
+    color: white;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption p
+{
+    font-size: 1rem;
+    font-weight: 700;
+
+}
+.carousel-caption 
+{
+    bottom: 3rem;
+    z-index: 10;
+    color: white;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+    height: 45rem;
+}
+.carousel-item > img 
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 45rem;
+}
+
+
+@media (max-width: 60em)
+{
+    /* Bump up size of carousel content */
+    .carousel 
+    {
+      /*  margin-left: 2rem;
+        margin-right: 2rem;*/
+        color: white;
+    }
+
+    .carousel-caption p 
+    {
+        margin-bottom: 1.25rem;
+        font-size: .7rem;
+        line-height: 1.4;
+        display: block;
+    }
+
+    .carousel-caption h1
+    {
+        font-size: 1rem;
+    }
+    
+    /* Declare heights because of positioning of img element */
+.carousel-item {
+    height: 20rem;
+}
+.carousel-item > img 
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 20rem;
+}
+}
+
+/*---End Carousel CSS---*/
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
